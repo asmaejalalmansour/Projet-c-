@@ -1,5 +1,6 @@
-# pragma once 
-# include <string>
+#pragma once
+
+#include <string>
 
 class Compte {
 private:
@@ -8,7 +9,7 @@ private:
     double solde;
 
 public:
-    Compte(int numero, const std::string & titulaire, double depotInitial = 0.0);
+    Compte(int numero, const std::string& titulaire, double depotInitial = 0.0);
 
     int getNumero() const;
     std::string getTitulaire() const;
