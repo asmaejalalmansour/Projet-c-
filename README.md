@@ -5,4 +5,4 @@
 - Youssef El hamdani 
 
 ## Compilation
-g++ -Wall -Wextra -o projet main.cpp Compte.cpp
+g++ -Wall -Wextra -o banque main.cpp Compte.cpp
